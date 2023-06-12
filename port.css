@@ -1,0 +1,225 @@
+/* background will be dark lbue gradient
+the buttons will have that siding feature thing 
+start with my role  divide my picture next 
+2nd will have the skills detailed 
+i was thinking when someone hovers over the projects it comes 
+like a pic enlarged like into your face
+ */
+
+ body{
+    color: antiquewhite;
+    background: rgb(13,1,20);
+    background: rgb(2,5,20);
+    background: linear-gradient(90deg, rgba(2,5,20,1) 0%, rgba(5,14,31,1)
+     50%, rgba(0,41,58,1) 100%);
+ }
+ nav {
+  /* margin-top: -0%; */
+   display: grid;
+   grid-template-columns: auto auto;
+    background-color: rgba(2,5,20,1);
+    color: #fff;
+    padding: 10px;
+    height: 50px;
+  }
+  nav img{
+    margin-top: -2%;
+    display: inline-flex;
+    height: 70px;
+    width: 90px;
+    vertical-align: middle;
+  }
+  
+  nav ul {
+    text-align: end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ef3a08;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+
+}
+
+  /* main */
+  .det{
+display: grid;
+grid-template-columns: auto auto;
+/* background-image:url(/images/fotor_2023-3-25_17_12_33.png);
+background-size: 20%;
+background-repeat: no-repeat; */
+
+  }
+  main{
+    padding-top: 18%;
+    text-align: center;
+    line-height: 3px;
+  }
+  main h3{
+    font-size: 30px;
+  }
+  main h2{
+    font-size: 40px;
+  }
+  main h1{
+    font-size: 50px;
+  }
+
+  aside img{
+    height: 400px;
+  }
+  
+  /* skills */
+  .skills{
+    height: 320px;
+  }
+  .boxes{
+    margin-top: -18%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .boxes img{
+    text-align: center;
+    height: 60px;
+    width: 70px;
+  }
+  .box1,.box2,.box3{
+    border: solid ;
+    flex-grow: 1;
+    aspect-ratio: 16/10;
+    /* height: 300px; */
+     width: 70%; 
+  }
+
+  /* projects */
+  .projects{
+    /* height: 300px; */
+    /* margin-top: -5%; */
+  }
+  .pro{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .tr{
+    overflow: hidden;
+    width: 300px;
+     box-shadow: #000000;
+     flex: 1 1 100px;
+  }
+  .tr img{
+    object-fit: cover;
+   
+    height: 250px;
+    width: 270px;
+  }
+.tr:hover{
+  flex: 3;
+}
+.tr:hover img{
+  filter: none;
+}
+
+  /* form */
+  .contact{
+    text-align: center;
+  }
+  .contact h1{
+    font-size: 50px;
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+}
+
+label {
+    color:black;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea, select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.but {
+  
+  height: 50px;
+    display: block;
+    /* padding: 1px 2px; */
+    background-color:#ef3a08;
+    /* color: #fff; */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color:#d92f00;
+}
+
+/* footer */
+footer{
+    margin-bottom: -2%;
+    background: #000000;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.last{
+    justify-content: center;
+    /* border: #e2d7d7 solid; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5%;
+}
+.last img{
+    height: 35px;
+    width: 35px;
+}
+.img{
+    margin-top: 3%;
+    height: 120px;
+    width: 120px;
+}
